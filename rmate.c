@@ -24,7 +24,7 @@
 #define DEFAULT_HOST "localhost"
 #define DEFAULT_PORT "52698"
 
-#define MAXDATASIZE 1024
+#define MAXDATASIZE (1024*1024)
 
 enum CMD_STATE {
     CMD_HEADER,
